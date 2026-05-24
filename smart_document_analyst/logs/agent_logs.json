@@ -1,0 +1,1142 @@
+[
+  {
+    "agent": "System",
+    "action": "application_started",
+    "details": {
+      "version": "1.0"
+    },
+    "timestamp": "2026-04-27T20:26:03.598029"
+  },
+  {
+    "timestamp": "2026-04-27T20:26:03.600012",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-04-27T20:26:06.871451",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\Douae\\Desktop\\S8\\DEEP LEARNING\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:26:06.872756",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:26:06.874319",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:26:06.875677",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:30.068799",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 103
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:30.070990",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:30.073378",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 103
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:30.221750",
+    "agent": "ClassifierAgent",
+    "action": "classification_failed",
+    "details": {
+      "error": "name 'predictedicted_class' is not defined"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:52.978892",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 100
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:52.983320",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:52.985492",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 100
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:27:52.990402",
+    "agent": "ClassifierAgent",
+    "action": "classification_failed",
+    "details": {
+      "error": "name 'predictedicted_class' is not defined"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:30:56.035204",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 67
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:30:56.037184",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:30:56.039497",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 67
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:30:56.043948",
+    "agent": "ClassifierAgent",
+    "action": "classification_failed",
+    "details": {
+      "error": "name 'predictedicted_class' is not defined"
+    }
+  },
+  {
+    "agent": "System",
+    "action": "application_exited",
+    "details": {},
+    "timestamp": "2026-04-27T20:33:13.918575"
+  },
+  {
+    "agent": "System",
+    "action": "application_started",
+    "details": {
+      "version": "1.0"
+    },
+    "timestamp": "2026-04-27T20:33:26.346835"
+  },
+  {
+    "timestamp": "2026-04-27T20:33:26.348576",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-04-27T20:33:28.659450",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\Douae\\Desktop\\S8\\DEEP LEARNING\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:33:28.661645",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:33:28.663566",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:33:28.665698",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.287902",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 132
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.290711",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.292823",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 132
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.317196",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "cv",
+      "confidence": "67.32%"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.320073",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.324671",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "cv",
+      "text_length": 132
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.332842",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 2
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.336347",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.339312",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "cv",
+      "text_length": 132
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.342982",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 98
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.345852",
+    "agent": "OrchestratorAgent",
+    "action": "human_approval_required",
+    "details": {
+      "status": "pending"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:37:30.428077",
+    "agent": "OrchestratorAgent",
+    "action": "human_rejected",
+    "details": {
+      "reason": "User rejected"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:45:54.454179",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-04-27T20:45:54.462559",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "model"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:45:54.468523",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:45:54.476460",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:45:54.478711",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:46:16.182038",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-04-27T20:46:16.194156",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "model"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:46:16.197543",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:46:16.199841",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:46:16.204672",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.156343",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.159578",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.162372",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.170587",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "90.32%"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.177383",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.184382",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.191221",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 1
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.195633",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.202435",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.208339",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 37
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:44.212829",
+    "agent": "OrchestratorAgent",
+    "action": "human_approval_required",
+    "details": {
+      "status": "pending"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:49:58.812936",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "agent": "System",
+    "action": "application_started",
+    "details": {
+      "version": "1.0"
+    },
+    "timestamp": "2026-04-27T20:52:41.164009"
+  },
+  {
+    "timestamp": "2026-04-27T20:52:41.167564",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-04-27T20:52:47.008848",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\Douae\\Desktop\\S8\\DEEP LEARNING\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:52:47.015066",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:52:47.023978",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:52:47.031348",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:06.952533",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 115
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:06.959712",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:06.963934",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 115
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:06.983455",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "89.58%"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:06.998754",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:07.007255",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 115
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:07.015689",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 4
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:07.026076",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:07.037145",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 115
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:07.060481",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:07.172272",
+    "agent": "OrchestratorAgent",
+    "action": "human_approval_required",
+    "details": {
+      "status": "pending"
+    }
+  },
+  {
+    "timestamp": "2026-04-27T20:53:13.294549",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "agent": "System",
+    "action": "application_started",
+    "details": {
+      "version": "1.0"
+    },
+    "timestamp": "2026-05-23T19:41:52.003872"
+  },
+  {
+    "timestamp": "2026-05-23T19:41:52.007490",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-05-23T19:41:53.832200",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\yassi\\Downloads\\smart_document_analyst\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:41:53.834802",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:41:53.837119",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "ollama_enabled": true,
+      "ollama_model": "phi3:latest"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:41:53.840368",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.221087",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 129
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.224692",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.227692",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 129
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.234580",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.238234",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.242210",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 129
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.246495",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.251011",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:42:15.255940",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 129
+    }
+  },
+  {
+    "agent": "System",
+    "action": "application_started",
+    "details": {
+      "version": "1.0"
+    },
+    "timestamp": "2026-05-23T19:43:01.652456"
+  },
+  {
+    "timestamp": "2026-05-23T19:43:01.656090",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-05-23T19:43:03.895619",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\yassi\\Downloads\\smart_document_analyst\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:03.903008",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:03.907513",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "ollama_enabled": true,
+      "ollama_model": "phi3:latest"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:03.917631",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.355307",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 129
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.360759",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.366370",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 129
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.378044",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.387235",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.394307",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 129
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.411780",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.420064",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:28.426805",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 129
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:41.039424",
+    "agent": "SummaryAgent",
+    "action": "summary_generated_with_ollama",
+    "details": {
+      "summary_length": 196,
+      "ollama_model": "phi3:latest"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:41.043361",
+    "agent": "OrchestratorAgent",
+    "action": "human_approval_required",
+    "details": {
+      "status": "pending"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T19:43:41.051212",
+    "agent": "OrchestratorAgent",
+    "action": "human_rejected",
+    "details": {
+      "reason": "User rejected"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:04:48.438960",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-05-23T20:04:48.499139",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\yassi\\Downloads\\smart_document_analyst\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:04:48.502766",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:04:48.506265",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "ollama_enabled": true,
+      "ollama_model": "phi3:latest"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:04:48.510223",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.165981",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 235
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.172363",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.178286",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 235
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.193784",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "97.92%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.202304",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.207466",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 235
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.213618",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.218165",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:27.223927",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 235
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:59.300253",
+    "agent": "SummaryAgent",
+    "action": "ollama_summary_failed",
+    "details": {
+      "error": "timed out"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:59.308227",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 85,
+      "fallback": "rule_based"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:20:59.325782",
+    "agent": "OrchestratorAgent",
+    "action": "human_approval_required",
+    "details": {
+      "status": "pending"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:02.312485",
+    "agent": "OrchestratorAgent",
+    "action": "human_rejected",
+    "details": {
+      "reason": "User rejected"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.264996",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 315
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.269107",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.274804",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 315
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.282706",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "cv",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.288050",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.292466",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "cv",
+      "text_length": 315
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.297877",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 4
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.303331",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:13.307975",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "cv",
+      "text_length": 315
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:45.380499",
+    "agent": "SummaryAgent",
+    "action": "ollama_summary_failed",
+    "details": {
+      "error": "timed out"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:45.386659",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 79,
+      "fallback": "rule_based"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T20:22:45.393183",
+    "agent": "OrchestratorAgent",
+    "action": "human_approval_required",
+    "details": {
+      "status": "pending"
+    }
+  }
+]

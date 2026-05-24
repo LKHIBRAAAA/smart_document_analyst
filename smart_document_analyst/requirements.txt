@@ -1,0 +1,6 @@
+torch
+numpy
+pandas
+scikit-learn
+```markdown
+✅ Model evaluation saved to JSON (accuracy, confusion matrix, classification report)

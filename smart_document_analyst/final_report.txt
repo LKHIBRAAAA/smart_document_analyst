@@ -1,0 +1,37 @@
+============================================================
+SMART DOCUMENT ANALYST - FINAL REPORT
+Generated: 2026-04-27T20:47:06.678956
+============================================================
+
+CLASSIFICATION RESULTS
+----------------------------------------
+Category: cv
+Confidence: 95.92%
+
+EXTRACTED INFORMATION
+----------------------------------------
+candidate_name: John Smith
+skills: ['python', 'java', 'sql']
+education: BACHELOR
+
+DOCUMENT SUMMARY
+----------------------------------------
+CV for John Smith with N/A years of experience. Key skills: python, java, sql.
+
+HUMAN APPROVAL
+----------------------------------------
+Status: Approved
+Timestamp: 2026-04-27T20:46:57.650601
+
+AGENT ACTIVITY LOG
+----------------------------------------
+Total log entries: 65
+  System: 4 actions
+  OrchestratorAgent: 28 actions
+  ClassifierAgent: 15 actions
+  ExtractionAgent: 9 actions
+  SummaryAgent: 9 actions
+
+============================================================
+END OF REPORT
+============================================================

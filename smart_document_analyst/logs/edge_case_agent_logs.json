@@ -1,0 +1,2283 @@
+[
+  {
+    "timestamp": "2026-05-23T18:49:30.813819",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.164195",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\yassi\\Downloads\\smart_document_analyst\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.165029",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.165832",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.166459",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.167060",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.167601",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.168145",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.192767",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "86.67%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.193736",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.194505",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.196355",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.198152",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.199673",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.200621",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 25
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.201461",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.202437",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.203297",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.204221",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.207470",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "93.64%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.208567",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.209870",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.210942",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.212004",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.213129",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.214873",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 30
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.216396",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.217624",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.219789",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.220975",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.225991",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "94.44%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.227832",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.229317",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.231686",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.234027",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.235528",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.237039",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 50
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.238464",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.239854",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.241890",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.243379",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.252257",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "cv",
+      "confidence": "96.63%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.254140",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.255875",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.258158",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.259998",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.261665",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.264378",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 99
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.266733",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.268558",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.270285",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.272026",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.275504",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "report",
+      "confidence": "88.97%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.277479",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.280970",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.284770",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.287776",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.290856",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.294250",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 38
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.297333",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.300630",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.303701",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.308040",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:33.326034",
+    "agent": "ClassifierAgent",
+    "action": "classification_failed",
+    "details": {
+      "error": "'charmap' codec can't encode characters in position 2-3: character maps to <undefined>"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:49:58.314325",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.513022",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\yassi\\Downloads\\smart_document_analyst\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.515140",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.517601",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.519599",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.521652",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.524746",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.527892",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.535779",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "86.67%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.538762",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.541372",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.545399",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.548156",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.550898",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.553569",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 25
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.556281",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.559185",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.565359",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.572241",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.585738",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "93.64%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.592682",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.598621",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.602141",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.605218",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.608894",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.612128",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 30
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.615024",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.617942",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.620827",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.623833",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.629497",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "94.44%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.632478",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.635351",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.638291",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.641471",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.644761",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.647699",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 50
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.650695",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.653577",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.656679",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.660317",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.665278",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "cv",
+      "confidence": "96.63%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.669269",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.672264",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.676502",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.679675",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.682637",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.685776",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 99
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.688756",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.692541",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.695823",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.698933",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.703679",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "report",
+      "confidence": "88.97%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.707210",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.710954",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.714785",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.718014",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.721229",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.725557",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 38
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.729449",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.732864",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.736212",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.739955",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.746162",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "cv",
+      "confidence": "40.02%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.749843",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.753256",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "cv",
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.757140",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.761134",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.765066",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "cv",
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.768665",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 71
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:50:00.772204",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:41.646264",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.273767",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\yassi\\Downloads\\smart_document_analyst\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.277417",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.281353",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.285871",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.291078",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.294697",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.298283",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.335523",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "99.97%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.343379",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.352061",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.357555",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.362100",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.366613",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.371607",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 25
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.376279",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.380950",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.385773",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.390617",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.402730",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "99.98%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.407864",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.415295",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.423633",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.431235",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.440526",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.448040",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 30
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.456027",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.463338",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.471202",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.478586",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.488506",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.496237",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.504256",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.511989",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.519843",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.526469",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.533185",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 50
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.541318",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.549194",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.557252",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.565041",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.575477",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "cv",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.584117",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.592932",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.602021",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 3
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.610871",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.619291",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.628131",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 99
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.634753",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.640248",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.645289",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.650262",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.657525",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "report",
+      "confidence": "99.98%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.664484",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.682775",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.693261",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.701793",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.710523",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.719347",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 38
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.726452",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.732480",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.738450",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.743760",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.749837",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "report",
+      "confidence": "47.07%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.757748",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.770864",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "report",
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.779289",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.787634",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.796173",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "report",
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.804166",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 38
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:55:44.809528",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:10.520459",
+    "agent": "OrchestratorAgent",
+    "action": "initializing_agents",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.074346",
+    "agent": "ClassifierAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success",
+      "model_dir": "C:\\Users\\yassi\\Downloads\\smart_document_analyst\\smart_document_analyst\\model"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.078958",
+    "agent": "ExtractionAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.085231",
+    "agent": "SummaryAgent",
+    "action": "initialized",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.090329",
+    "agent": "OrchestratorAgent",
+    "action": "all_agents_initialized",
+    "details": {
+      "status": "ready"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.095952",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.103174",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.108337",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.119668",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "99.97%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.127537",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.134795",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.142938",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.153017",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.161176",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 7
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.170818",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 43
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.178176",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.185757",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.192690",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.199211",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.210304",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "99.98%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.217991",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.224649",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.231373",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 1
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.239415",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.246643",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 88
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.255281",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 30
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.262031",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.275953",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.286843",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.297477",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.320864",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "invoice",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.334586",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.345606",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.357787",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.368984",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.387744",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "invoice",
+      "text_length": 74
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.465565",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 66
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.479131",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.492594",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.538642",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.555568",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.572164",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "cv",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.590231",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.602403",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.614369",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.625739",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.636896",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "cv",
+      "text_length": 84
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.648189",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 101
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.659723",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.670750",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.681887",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.692780",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.714430",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "report",
+      "confidence": "99.98%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.731260",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.751589",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.777403",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.795358",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.813263",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "report",
+      "text_length": 91
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.828568",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 58
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.844941",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.866979",
+    "agent": "OrchestratorAgent",
+    "action": "starting_document_processing",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.907273",
+    "agent": "OrchestratorAgent",
+    "action": "step_1_classification",
+    "details": {
+      "agent": "ClassifierAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.926365",
+    "agent": "ClassifierAgent",
+    "action": "classifying_document",
+    "details": {
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.962168",
+    "agent": "ClassifierAgent",
+    "action": "classification_complete",
+    "details": {
+      "category": "report",
+      "confidence": "47.07%"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:13.980207",
+    "agent": "OrchestratorAgent",
+    "action": "step_2_extraction",
+    "details": {
+      "agent": "ExtractionAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:14.005474",
+    "agent": "ExtractionAgent",
+    "action": "extracting_information",
+    "details": {
+      "category": "report",
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:14.021237",
+    "agent": "ExtractionAgent",
+    "action": "extraction_complete",
+    "details": {
+      "fields_extracted": 0
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:14.034013",
+    "agent": "OrchestratorAgent",
+    "action": "step_3_summarization",
+    "details": {
+      "agent": "SummaryAgent"
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:14.047242",
+    "agent": "SummaryAgent",
+    "action": "generating_summary",
+    "details": {
+      "category": "report",
+      "text_length": 61
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:14.060468",
+    "agent": "SummaryAgent",
+    "action": "summary_complete",
+    "details": {
+      "summary_length": 58
+    }
+  },
+  {
+    "timestamp": "2026-05-23T18:58:14.077292",
+    "agent": "OrchestratorAgent",
+    "action": "workflow_complete",
+    "details": {
+      "status": "success"
+    }
+  }
+]

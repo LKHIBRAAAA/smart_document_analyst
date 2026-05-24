@@ -1,0 +1,78 @@
+[
+  {
+    "name": "empty_input",
+    "input": "",
+    "expect_error": true,
+    "status": "error",
+    "error": "Empty document text provided",
+    "passed": true
+  },
+  {
+    "name": "whitespace_only",
+    "input": "   ",
+    "expect_error": true,
+    "status": "error",
+    "error": "Empty document text provided",
+    "passed": true
+  },
+  {
+    "name": "very_short_input",
+    "input": "Invoice",
+    "expect_error": false,
+    "status": "success",
+    "classification": "invoice",
+    "confidence": 0.9996782541275024,
+    "summary": "Invoice #Unknown with amount not specified.",
+    "passed": true
+  },
+  {
+    "name": "mixed_content",
+    "input": "John Smith submitted an invoice for consulting work in Q1 2024 with a total of 2500 MAD.",
+    "expect_error": false,
+    "status": "success",
+    "classification": "invoice",
+    "confidence": 0.9997561573982239,
+    "summary": "Invoice #Unknown for 2500 MAD.",
+    "passed": true
+  },
+  {
+    "name": "invoice_without_amount",
+    "input": "Invoice #9001 for design services. Client: Nova. Contact: billing@nova.com",
+    "expect_error": false,
+    "status": "success",
+    "classification": "invoice",
+    "confidence": 0.9999750852584839,
+    "summary": "Invoice #9001 with amount not specified (email: billing@nova.com).",
+    "passed": true
+  },
+  {
+    "name": "cv_without_name",
+    "input": "Experienced Python developer with 4 years experience in machine learning and Docker.",
+    "expect_error": false,
+    "status": "success",
+    "classification": "cv",
+    "confidence": 0.9999984502792358,
+    "summary": "CV for an unnamed candidate with 4 years of experience. Key skills: python, docker, machine learning.",
+    "passed": true
+  },
+  {
+    "name": "report_without_metrics",
+    "input": "Quarterly business report discussing internal process improvements and planning priorities.",
+    "expect_error": false,
+    "status": "success",
+    "classification": "report",
+    "confidence": 0.9998077750205994,
+    "summary": "Report document with limited structured metrics extracted.",
+    "passed": true
+  },
+  {
+    "name": "off_domain_text",
+    "input": "The weather is pleasant today and the city center is crowded.",
+    "expect_error": false,
+    "status": "success",
+    "classification": "report",
+    "confidence": 0.47070446610450745,
+    "summary": "Report document with limited structured metrics extracted.",
+    "passed": true
+  }
+]
